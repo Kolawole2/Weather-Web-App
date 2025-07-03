@@ -24,7 +24,7 @@ const currentDateTxt = document.querySelector('.current_date_txt')
 const forecastItemContainer = document.querySelector('.forecast-items-container')
 
 // === API KEY ===
-const apiKey = "6cb27471a80fc87ec8689b88286df8b1";
+const apiKey = config.weatherApiKey;
 
 // ==== EVENT LISTENERS ====
 
